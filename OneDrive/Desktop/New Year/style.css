@@ -1,0 +1,79 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+.bg_heart {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("cat.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  animation: src 200s infinite ease-in-out;
+}
+
+@keyframes src {
+  0% {
+    background-image: url("first_meet.jpg");
+  }
+  8% {
+    background-image: url("first_buffet.jpg");
+  }
+  16% {
+    background-image: url("first_sleep.jpg");
+  }
+  24% {
+    background-image: url("first_freshers.jpg");
+  }
+  32% {
+    background-image: url("first_bite.jpg");
+  }
+  40% {
+    background-image: url("drink.jpg");
+  }
+  43% {
+    background-image: url("comb.jpg");
+  }
+  46% {
+    background-image: url("hug.jpg");
+  }
+  49% {
+    background-image: url("laugh.jpg");
+  }
+  52%{
+    background-image: url("lift.jpg");
+  }
+  55% {
+    background-image: url("movie.jpg");
+  }
+  58% {
+    background-image: url("freshers_blue.jpg");
+  }
+  66% {
+    background-image: url("temple.jpg");
+  }
+  75% {
+    background-image: url("freshers_red.jpg");
+  }
+  90% {
+    background-image: url("tankbund.jpg");
+  }
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+  font-size: 10px;
+}
